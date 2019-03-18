@@ -19,23 +19,6 @@ project_two_description: Describe your project!
 project_two_url: https://github.com/jameshamann/jekyll-material-theme
 project_two_icon: photo_camera
 
-
-project_three: Third Project
-project_three_description: Describe your project!
-project_three_url: https://github.com/jameshamann/jekyll-material-theme
-project_three_icon: hotel
-
-
-project_four: Findability and Interoperability
-project_four_description: -|
-  `EOSCpilot has produced a first draft of the strategy and recommendations to help users and services to find and access datasets across several scientific disciplines. This strategy relies on three main ideas
-
-  - Agreeing on a common and minimum dataset metadata properties to be exposed by data resources (following evaluation of existing metadata models and APIs).
-  - Supporting a coordinated ecosystem of dataset metadata catalogues working together to efficiently manage and exchange their metadata.
-  - Demonstrate the applicability of these recommendations by implementing them in real use cases to allow users services to find and access data.`
-project_four_url: https://eoscpilot.eu/themes/wp6-interoperability/1st-report-on-data-report-findability-interoperability
-project_four_icon: restaurant
-
 portfolio_heading: Portfolio
 portfolio_type: cards
 
@@ -152,6 +135,7 @@ project_button: Github
 github: https://github.com/EOSC-EDMI
 medium: https://medium.com
 EOSC: https://eoscpilot.eu/
+reports: https://www.eoscpilot.eu/principal-findings-eoscpilot-project
 baseurl: # if your site is located at /blog or /home, enter it here, otherwise leave it empty
 url: http://localhost:4000/ #the url of your site
 
