@@ -19,7 +19,7 @@ layout: mapping
         <div class="edmi-properties">
             <div class="column-title"><h4>EDMI</h4></div>
             <div class="properties">
-                {% assign properties = properties-page.properties | where: 'marginality', 'minimum' %}
+                {% assign properties = site.data.properties | where: 'marginality.functional', 'minimum' %}
                 {% for property in properties %}
                 <div class="property-card property-name">
                     {{property.name}}
@@ -27,6 +27,7 @@ layout: mapping
                 {% endfor %}
             </div>
         </div>
+
         <div class="resources" id="standards-list">
             {% for crosswalk in site.crosswalks %}
             
